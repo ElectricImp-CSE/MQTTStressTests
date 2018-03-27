@@ -25,16 +25,21 @@ pleasebuild src/agent.nut -DIOT_HUB_CONNECTION_STRING "connection string obtaine
 
 ### [CreateClientTest](./src/tests/CreateClient.agent.test.nut)
 
-Opens/closes _mqtt_ clients in a loop
+Opens/closes _mqtt_ clients in a loop.
 
 ### [ConnectDisconnectTest](./src/tests/ConnectDisconnect.agent.test.nut)
 
-Connects/disconnects the client in a loop
+Connects/disconnects the client in a loop.
 
 ### [Device2CloudTest](./src/tests/Device2Cloud.agent.test.nut)
 
-Simple messaging test
+Simple messaging test.
 
 ### [SubscribeTest](./src/tests/Subscribe.agent.test.nut)
 
-Simple application test with subscriptions and cloud2device messages
+Simple application test with subscriptions and cloud-to-device messages.
+
+
+## License
+
+The tests are licensed under the [MIT License](./LICENSE).
