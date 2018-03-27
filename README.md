@@ -11,7 +11,7 @@ git clone https://github.com/ElectricImp-CSE/MQTTStressTests.git
 cd MQTTStressTests
 ```
 
-3. Retrieve the Azure IoT Hub [connection string](https://github.com/electricimp/AzureIoTHub#device-connection-string)
+3. Retrieve the Azure IoT Hub [connection string](https://github.com/electricimp/AzureIoTHub#device-connection-string).
 
 4. Build the sources by running:
 
@@ -23,18 +23,18 @@ pleasebuild src/agent.nut -DIOT_HUB_CONNECTION_STRING "connection string obtaine
 
 ## Test Description
 
-### [CreateClientTest](./src/test1.nut)
+### [CreateClientTest](./src/tests/CreateClient.agent.test.nut)
 
 Opens/closes _mqtt_ clients in a loop
 
-### [ConnectDisconnectTest](./src/test2.nut)
+### [ConnectDisconnectTest](./src/tests/ConnectDisconnect.agent.test.nut)
 
 Connects/disconnects the client in a loop
 
-### [Device2CloudTest](./src/test3.nut)
+### [Device2CloudTest](./src/tests/Device2Cloud.agent.test.nut)
 
 Simple messaging test
 
-### [SubscribeTest](./src/test.4.nut)
+### [SubscribeTest](./src/tests/Subscribe.agent.test.nut)
 
 Simple application test with subscriptions and cloud2device messages
