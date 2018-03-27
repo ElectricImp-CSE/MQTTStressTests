@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 //
 
-@include "github:electricimp/examples/blob/master/AzureTwins/AzureTwins.agent.lib.nut"
+@include "github:electricimp/examples/AzureTwins/AzureTwins.agent.lib.nut"
 
 class SubscribeTest extends AzureTwin {
 
