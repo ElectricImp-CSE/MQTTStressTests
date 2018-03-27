@@ -7,8 +7,8 @@
 2. Clone the repository to your local disc and change to it:
 
 ```
-git clone https://github.com/ElectricImp-CSE/MQTTStressTests.git
-cd MQTTStressTests
+> git clone https://github.com/ElectricImp-CSE/MQTTStressTests.git
+> cd MQTTStressTests
 ```
 
 3. Retrieve the Azure IoT Hub [connection string](https://github.com/electricimp/AzureIoTHub#device-connection-string).
